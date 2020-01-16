@@ -43,10 +43,45 @@ Bonus Problem: For those interested in an additional challenge, we are providing
 
 
 ## Challenge Evaluation Criteria
-All the parts of the challenge will be taken into consideration when evaluating the solutions. We will analyze the tool design, the quality of the annotations that were received, the quality of the annotations that were provided, the analysis of the results and also the qualitative analysis of the tool and planned features, proposed changes. 
+All the parts of the challenge will be taken into consideration when evaluating the solutions, as follows:
+- Tool design: how easy it is to use, how straightforward it is to provide the annotations, assuming a non-biomed background
+- Quality of the collected annotations: compared to the ground truth, how accurate are the annotations that were collected with the tool
+- Quality of the provided annotations: compared to the ground truth, how accurate are the annotations that are provided by the team
+- Annotation analysis: was the comparison with the ground truth properly performed, is the analysis thorough
+- Overall conclusions: are there any important take-aways in the qualitative analysis of the tool and planned features, proposed changes. 
 
-## Annotation Description
-In this section we describe what makes an article interesting for our study and once such an abstract is identified, what type of information we need to collect to make possible to automate the synthesis of generic drug efficacy for cancer.
+## Annotation Guidelines
+In this section we describe what makes an article interesting for our study and once such an abstract is identified, what type of information we need to collect to make it possible to automate the synthesis of generic drug efficacy for cancer.
+
+In a nutshell, we are interested in scientific abstracts that discuss the results of a generic drug when used as an intervention for cancer. Note the abstracts you will be using in this project will be provided. Also, for simplicity, the generic drugs discussed in each abstract will be provided as well. In addition, we are interested only in the abstracts that mention results at the *phenotype level* with respect to the cancer under consideration. Such results are directly associated with the cancer and they can generally be used to understand the efficacy of the drug against the cancer. Some of the medical terms used to describe such phenotype outcomes include, but are not limited to:  Look for words like: survival, tumor growth/reduction, apoptosis, metastasis,EMT (if describes phenotypes, not simply protein expression), angiogenesis, cell proliferation, progression of disease, partial/complete response (RECIST criteria).
+
+
+Some of the common scientific abstracts that discuss generic drugs and cancer but are not relevant for our use case can fit in one of the following categories:
+- The abstract discusses an intervention of a generic drug against cancer, but it does not present direct measurements of the effect on cancer. Such papers can, for example, discuss the mechanism in which the drug attacks the cancer; or they discuss some intermediate effect such as the effect on the immunotherapy cells (which are supposed to fight cancer).
+- A series of papers discuss using generic drugs to treat side effects of cancer.
+- There are papers that study the risk of certain drugs to induce cancer.
+- There are papers describing interventiosn with generic drugs against tumors that are not cancers. 
+
+Once an abstract is deemed as relevant for our collection, we are required to collect the following information:
+- the generic drug
+- the cancer
+- the therapeutic association
+- the study type
+
+The therapeutic association refers to the way the drug influences the cancer and can take one of the following values:
+- effective: the drug helped reduce the cancer
+- detrimental: the drug increased the tumor or made the cancer worse
+- no effect: the drug did not have a perceived affect on the cancer
+- inconclusive: the results are mixed and no conclusion can be drawn.
+
+The type of study refers to the type of experiments that were perfomed. This label can take one of the following values:
+- pre-clinical, in-vivo: experiments were done in mice or rats
+- pre-clincal, in-vitro: experiments are done with cultures of cancer cells
+- clinical: experiments were done on patients
+- case report: a detailed report of the symptoms, signs, diagnosis, treatment, and follow-up of an individual patient
+- observational study: a study in which individuals are observed or certain outcomes are measured; no attempt is made to affect the outcome (for example, no treatment is given); these are not experiments, they are usually analysis of existing experiments and their results.
+
+For the cases in which there are several generic drugs and/or cancers being discussed, you can select only one *(drug, cancer)* pair and provide the annotations with respect to the selected combination.
 
 
 ## Acknowledgements:
