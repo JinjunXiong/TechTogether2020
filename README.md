@@ -1,6 +1,11 @@
 # Drug Repurposing for Cancer - A Data Driven Approach
 
 ## TechTogether 2020 Project
+
+[IBM Research](https://research.ibm.com/) in collaboration with [Cures Within Reach for Cancer](https://www.cwr4c.org/) is really excited to present a project for developing an annotation tool to be used in the quest of synthesizing scientific data on generic drugs for cancer treatments. We are currently collaborating on an ambitious initiative to synthesize the plethora of scientific and real-world data on non-cancer generic drugs to identify the most promising therapies to repurpose for cancer. So far, we have been using in-house experts to label our data; however, this approach is not sufficiently scalable. The focus of the project is on developing a tool that allows labeling of scientific abstracts with a diverse crowd.
+
+ Participants will learn what type of information needs to be collected on drugs and cancers from scientific abstracts to make it possible to automate the extraction of such information. By the end of the event, the participants will build a tool to annotate scientific abstracts, compete against each other by using their annotation tools and analyze the quality of the annotations that their tool was able to collect. This represents a stepping stone for scaling data collection to a large, diverse crowd of annotators, one of the key enablers for automatic information extraction.
+
 This project is specifically designed for the [TechTogether Boston 2020](https://boston.techtogether.io), Boston's largest all-female, femme, and non-binary hackathon, held from January 31 - Feb 2, 2020 in Agganis Arena, Boston University.
 
 If you are not clear about any particular concept as discussed below, please ask your technical mentors to help you. You can choose to finish the project using whatever programming language you are comfortable with, for example Python, Javascript, Go, R, Matlab, Mathematica, JAVA, C/C++, and any technologies (Amazon AWS, IBM Cloud Fuctions, Google Cloud, etc.). 
