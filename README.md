@@ -1,9 +1,9 @@
 # Drug Repurposing for Cancer - A Data Driven Approach
 
-## Introduction
-This project is designed for the [TechTogether Boston 2020](https://boston.techtogether.io) held from January 31 - Feb 2, 2020 in Agganis Arena, Boston University.This project is specifically designed for the [TechTogether Boston 2020](https://boston.techtogether.io),Boston's largest all-female, femme, and non-binary hackathon, held from January 31 - Feb 2, 2020 in Agganis Arena, Boston University.
+## TechTogether 2020 Project
+This project is specifically designed for the [TechTogether Boston 2020](https://boston.techtogether.io), Boston's largest all-female, femme, and non-binary hackathon, held from January 31 - Feb 2, 2020 in Agganis Arena, Boston University.
 
-If you are not clear about any particular concept as discussed below, please ask your technical mentors to help you. You can choose to finish the project using whatever programming language you are comfortable with, be it Python, Javascript, Go, R, Matlab, Mathematica, JAVA, C/C++, or whatever. 
+If you are not clear about any particular concept as discussed below, please ask your technical mentors to help you. You can choose to finish the project using whatever programming language you are comfortable with, for example Python, Javascript, Go, R, Matlab, Mathematica, JAVA, C/C++, and any technologies (Amazon AWS, IBM Cloud Fuctions, Google Cloud, etc.). 
 
 ![Drug repurposing](https://github.com/JinjunXiong/TechTogether2020/blob/master/pills_banner.png 'Drug Repurposing')
 
