@@ -19,22 +19,35 @@ To be able to train machine learning algorithms to identify and extract relevant
 
 ## Challenge Description: Designing Best Tools for Evidence Annotation of Scientific Literature
 
-This challenge will be split into three step as follows. We are asking participant teams to 
+This challenge will be split into three step as follows. We are asking the participant teams to execute on the following steps:
 
-1. Design and develop a web-baseed annotation tool that makes it easy to annotate scientific articles by a diverse crowd. The scientific abstracts are obtained from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/). The key requirement of the web tool is that it needs to make it easy to annotate scientific abstracts by a diverse crowd that do not necessarily have a solid background in biomed. We will explain in detail shortly, providing several examples, the type of annotations that have to be collected. The organizer will assign each team a set of PubMed scientific article abstracts to be used for testing in step 2 below. The first step of the project will need to be done prompty by **Friday 1 pm (EST), Feb 1st, 2020** without incurring penalty. This is essential as the Step 2 will depend on the Step 1 outcome.
-2. Use each others' tools developed in Step 1 to annotated several PubMed scientific article abstracts, and rate the quality of the tools (metrics to be described below) each team is assigned to use (in other words, teams will rate each other's tools and compete against each other). The organizer will assign each team the annotation tools developed by other teams to use. 
-3. Evaluate the quality of annotation results from Step 2 from all annotators by programmatically comparing against a small subset of articles for which we provide ground truth.  
+1. Design and develop a web-baseed annotation tool that makes it easy to annotate scientific articles by a diverse crowd. The scientific abstracts are obtained from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/). A subset used for this exercise will be provided, so no need to acces PubMed. The key requirement of the web tool is that it needs to make it easy to annotate scientific abstracts by a diverse crowd that do not necessarily have a solid background in biomed. We will explain in detail shortly, providing several examples, the type of annotations that have to be collected. The organizer will assign each team a set of PubMed scientific article abstracts to be used for testing in step 2 below. The first step of the project will need to be done prompty by **Saturday 4 pm (EST), Feb 1st, 2020** without incurring penalty. This is essential as subsequent steps require this first step to be completed.
+2. Use each others' tools developed in Step 1 to annotate the provided PubMed scientific abstracts, and rate the quality of the tools (metrics to be described below). Each team will be assigned to use a different team's tool, so this part of the project is a mini-competition among teams. We expect all teams to finish this step by **Saturday 6pm (EST), Feb 1st, 2020** such that there is sufficient time to analyze the results and prepare your submissions.
+3. Evaluate the quality of annotation results from Step 2 from all annotators by programmatically comparing against a the ground truth, which will be provided. Based on the results you obtain, discuss the efficiency of the tool and draw conclusions on what could improve.
 
 
 Bonus Problem: For those interested in an additional challenge, we are providing a small dataset with labels on whether the articles are of interest for our synthesis or not. The participants are asked to implement a model that, given an abstract, predicts whether the paper is of interest for our synthesis. We will explain all details below. 
 
 
 ## Challenge Timeline and Process Description
- 
+ In this section we clarify the process and the timeline. Please consult with your tech mentors at any point if you have questions. Don't be shy and don't wait. Rule of thumb: if it takes more than 15 mins to figure out, ask for help.
+
+ Please note the general schedule on the hackathon's webpage. These steps are only the steps specific to our project. 
+
+ 1. Friday night, after project pitch, we're expecting the participant teams interested in executing on the project to submit a issue to this github repo with the name of the team in the title of the issue. The body of the issue should contain the name of the participants and the github repository where all code, results and analysis will be deposited. We expect this step to be completed by **Saturday 9am, Feb 1st, 2020**. At this point, we will distribute about 50 abstracts that need to be included in the experiments. Also we will distribute a set of 100 abstracts for those who want to work on the bonus component. 
+ 2. By **Saturday 2pm, Feb 1st, 2020**, the organizers will match teams for the competition part. Each team will have a different team assigned. They have to make sure the teams communicate to understand how to use the annotation tools.
+ 3. Teams are expected to work on the annotation tools until 4pm. By that point, all teams should know how to access the other team's tool to provide annotations. We count on your honesty! Please do a great job when providing annotations. We'll be taking into account your performance when ranking the submissions. *Between 4pm and 6pm*, we expect the teams to provide annotations. 
+4. By **Saturday 6pm, Feb 1st, 2020**, teams are expected to complete the annotation period and they should be ready to analyize the results. 
+5. By **Sunday 8am, Feb 2nd, 2020**, teams will be working on analyzing the results of the annotation tools, propose modifications and comment on the efficiency of their tool. All this information can be upload it in the issue belonging to the team. 
+6. **Sunday 8am, Feb 2nd 2020**, we will clone all the repositories from the team. We will use the information in the repositories and in the issue to estimate the quality of the submission. 
+
 
 ## Challenge Evaluation Criteria
+All the parts of the challenge will be taken into consideration when evaluating the solutions. We will analyze the tool design, the quality of the annotations that were received, the quality of the annotations that were provided, the analysis of the results and also the qualitative analysis of the tool and planned features, proposed changes. 
 
 ## Annotation Description
+In this section we describe what makes an article interesting for our study and once such an abstract is identified, what type of information we need to collect to make possible to automate the synthesis of generic drug efficacy for cancer.
+
 
 ## Acknowledgements:
 - [IBM Research](https://researcher.watson.ibm.com/researcher/view.php?person=us-ioana)
