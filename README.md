@@ -4,7 +4,7 @@
 - [IBM Research](https://researcher.watson.ibm.com/researcher/view.php?person=us-ioana)
 - [Cures Within Reach for Cancer](https://www.cwr4c.org/)
 
-![Drug repurposing](https://github.com/JinjunXiong/TechTogether2020/master/pills_banner.png 'Drug Repurposing')
+![Drug repurposing](https://github.com/JinjunXiong/TechTogether2020/blob/master/pills_banner.png 'Drug Repurposing')
 
 ## Project Context: Synthesizing scientific data on generic drugs for cancer treatment
 
