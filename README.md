@@ -2,12 +2,12 @@
 
 ## TechTogether 2020 Project
 
-[IBM Research](https://research.ibm.com/) in collaboration with [Cures Within Reach for Cancer](https://www.cwr4c.org/) is on an ambitious initiative to automatically analyze and mine the plethora of scientific publications and real-world data on non-cancer generic drugs to identify the most promising therapies to repurpose for cancer treatment. 
+[IBM Research](https://research.ibm.com/) in collaboration with [Cures Within Reach for Cancer](https://www.cwr4c.org/) is on an ambitious initiative to automatically analyze and mine the plethora of scientific publications and real-world data on non-cancer generic drugs to identify the most promising therapies to repurpose for cancer treatment.
 
-In this year's IBM TechTegether Challenge, we ask you to join us to tackle this grand challenge together. As an innovative developer and out-of-the-box thinker, you will be asked to develop a scalable and easy-to-use automation tool in the quest of analyzing scientific publications and data on generic drugs for cancer treatments.
+In this year's IBM TechTegether Challenge, we ask you to join us to tackle this grand challenge together. As an innovative developer and out-of-the-box thinker, you are asked to develop a scalable and easy-to-use automation tool in the quest of analyzing scientific publications and data on generic drugs for cancer treatments.
 
-You will learn what type of data needs to be collected on drugs and cancers from scientific pappers to make it possible to automatically extract useful and insightful information, and how your tools developed through this IBM TechTegether Challenge will help us to achieve such a goal with more accurate labeling data. You will even get a chance to use the tools developed by other teams (or, equivalently, let other teams use your tools) to see how your efforts can make a difference in collecting useful data, and finally develop a tool to measure the quality of the data automatically. For those who like to take on an even bigger challenge, we have something extra for you to flex your Machine Learning and AI brain muscles.
- 
+You will learn what type of data needs to be collected on drugs and cancers from scientific papers to make it possible to automatically extract useful and insightful information, and how your tools developed through this IBM TechTegether Challenge will help us achieve such a goal with more accurate labeled data. You will even get a chance to use the tools developed by other teams (or, equivalently, let other teams use your tools) to see how your efforts can make a difference in collecting useful data, and finally programmatically measure the quality of the data you collect. For those who would like to take on an even bigger challenge, we have something extra for you to flex your machine learning and AI brain muscles.
+
 
 This project is specifically designed for the [TechTogether Boston 2020](https://boston.techtogether.io), Boston's largest all-female, femme, and non-binary hackathon, held from January 31 - Feb 2, 2020 in Agganis Arena, Boston University.
 
