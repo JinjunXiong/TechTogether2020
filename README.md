@@ -121,7 +121,7 @@ Drugs: [Adapalene]
 - Relevant: 1 -> The article presents research that directly tests the effect of retinoid Adapalene on hepatoma cells. The phenotypic effect tested here is the apoptosis of tumor cells and blockage of cell proliferation. 
 - Drug: Adapalene
 - Cancer: Hepatoma
-- Therapeutic Effect: effective -> can block hepatoma cell growth and induces cell apoptosis
+- Therapeutic Association: effective -> can block hepatoma cell growth and induces cell apoptosis
 - Study Type: preclinical in vitro -> no animal specified, no patient, the reserach presented here works directly with cells.
 
 
