@@ -118,11 +118,11 @@ apoptosis.
 Drugs: [Adapalene]
 ```
 
-Relevant: 1 -> The article presents research that directly tests the effect of retinoid Adapalene on hepatoma cells. The phenotypic effect tested here is the apoptosis of tumor cells and blockage of cell proliferation. 
-Drug: Adapalene
-Cancer: Hepatoma
-Therapeutic Effect: effective -> can block hepatoma cell growth and induces cell apoptosis
-Study Type: preclinical in vitro -> no animal specified, no patient, the reserach presented here works directly with cells.
+- Relevant: 1 -> The article presents research that directly tests the effect of retinoid Adapalene on hepatoma cells. The phenotypic effect tested here is the apoptosis of tumor cells and blockage of cell proliferation. 
+- Drug: Adapalene
+- Cancer: Hepatoma
+- Therapeutic Effect: effective -> can block hepatoma cell growth and induces cell apoptosis
+- Study Type: preclinical in vitro -> no animal specified, no patient, the reserach presented here works directly with cells.
 
 
 #### Example 2
@@ -208,11 +208,11 @@ dapagliflozin at 0.5√¢‚Ç¨¬Ømg/kg/day in rats was 7 times the clinical e
 promoter or progressor of bladder cancer in a validated bladder cancer model in rats.
 ```
 
-Relevant: 1 -> The study uses dapagliflozin in a bladder cancerl model in rats.
-Drugs: dapagliflozin,
-Cancer: bladder cancer
-Therapeutic association: No effect -> The last phrase explains how the drug did not have any effect on the cancer. 
-Study type: In Vivo -> Cancer model in rats
+- Relevant: 1 -> The study uses dapagliflozin in a bladder cancerl model in rats.
+- Drugs: dapagliflozin,
+- Cancer: bladder cancer
+- Therapeutic Association: No effect -> The last phrase explains how the drug did not have any effect on the cancer. 
+- Study Type: In Vivo -> Cancer model in rats
 
 ### Bonus Exercise
 
