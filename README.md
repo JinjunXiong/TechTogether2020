@@ -192,6 +192,28 @@ Drugs: [aspirin/ nonaspirin NSAIDs]
 
 This abstract is not relevant since it discusses cancer risks and it does not discuss a treatment of cancer. Note the drug is not used as a treatment to avoid cancer reoccurrence. If the drug had been used to present cancer relapse, then the abstract would have been relevant for our study.
 
+#### Example 5
+
+```
+PubMedID: 30685222
+Title: A study in a rat initiation-promotion bladder tumour model demonstrated no promoter/progressor potential of dapagliflozin.
+
+Abstract: Dapagliflozin, a sodium-glucose co-transporter 2 (SGLT2) inhibitor, is indicated to improve glycaemic control in adults of type 2 diabetes. In nonclinical studies, 
+dapagliflozin was neither genotoxic nor carcinogenic. However, in some clinical studies, an increased incidence of bladder cancer was observed in the dapagliflozin group vs. 
+the placebo. Therefore, this study was undertaken to determine if dapagliflozin can act as a promoter in a 2-stage bladder cancer model in rats induced with N-butyl-N-
+(4-hydroxybutyl)-nitrosamine (BBN). Rats given BBN (100 or 400√¢‚Ç¨¬Ømg/kg, po) twice weekly for 6 weeks in Phase 1 were assigned in Phase 2 to receive daily dose of vehicle,
+dapagliflozin (0.5√¢‚Ç¨¬Ømg/kg, po) or uracil (positive control, 3% in diet) from weeks 8-34. All bladders were evaluated by histopathology. Verifying the validity of the 
+model, uracil increased the incidence of bladder cancer, while dapagliflozin had no effect on the incidence or invasiveness of transitional cell carcinoma. The exposure of 
+dapagliflozin at 0.5√¢‚Ç¨¬Ømg/kg/day in rats was 7 times the clinical exposure at maximal therapeutic dose (10√¢‚Ç¨¬Ømg). In conclusion, dapagliflozin does not act as 
+promoter or progressor of bladder cancer in a validated bladder cancer model in rats.
+```
+
+Relevant: 1 -> The study uses dapagliflozin in a bladder cancerl model in rats.
+Drugs: dapagliflozin,
+Cancer: bladder cancer
+Therapeutic association: No effect -> The last phrase explains how the drug did not have any effect on the cancer. 
+Study type: In Vivo -> Cancer model in rats
+
 ### Bonus Exercise
 
 We are providing a csv file with 100 abstracts that are annotated whether they are relevant or not for our study. In the file, a relevant document is marked `include` and a irrelevant document is marked `exclude`. You are free to use any machine learning technique to build a binary classifier that given the PubMedID, the title and the abstract, predicts whether the paper is relevant or not. Since the dataset is rather small, we encourage you to use 5-fold cross validation to evaluate your models. 
