@@ -218,6 +218,9 @@ promoter or progressor of bladder cancer in a validated bladder cancer model in 
 
 We are providing a csv file with 100 abstracts that are annotated whether they are relevant or not for our study. In the file, a relevant document is marked `include` and a irrelevant document is marked `exclude`. You are free to use any machine learning technique to build a binary classifier that given the PubMedID, the title and the abstract, predicts whether the paper is relevant or not. Since the dataset is rather small, we encourage you to use 5-fold cross validation to evaluate your models. 
 
+### Data
+
+In the directory `data` you can find the data to use for this challenge. The file `docs_50_complete_share.csv` is to be used for collecting annotations; from this file, the web tool should display the PubMedID, title and abstract; the tool is supposed to collect the rest of the information. The file `docs_100_share.csv` can be used for the bonus exercise.
 
 ## Acknowledgements:
 - [IBM Research](https://researcher.watson.ibm.com/researcher/view.php?person=us-ioana)
