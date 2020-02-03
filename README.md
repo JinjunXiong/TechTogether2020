@@ -1,5 +1,22 @@
 # Drug Repurposing for Cancer - A Data Driven Approach
 
+>**Updates on Feb 2, 2020**
+>
+>We thank [all teams](https://github.com/JinjunXiong/TechTogether2020/issues) who participated the IBM TechTogether 2020 challenge, and **congratulate** the following winning team for winning the challenge.
+>
+>The team of [Pilter AI](https://github.com/sejaldua/IBM-research-challenge) - a truly collaborative team from five different institutes:
+
+>* Ashvini Varatharaj from [Worcester Polytechnic Institute](https://www.wpi.edu)
+>* Anastasia Spangler from [Bellevue College](https://www.bellevuecollege.edu)
+>* Sejal Dua from [Tufts University](https://www.tufts.edu)
+>* Smruthi Ramesh from [Northeastern University](https://www.northeastern.edu)
+>* Sulbha Aggarwal from [Queens College (CUNY)](https://www.qc.cuny.edu/Pages/home.aspx)
+
+![Pilter AI Team with IBMers](20200202_TechTogether_IBMWinningTeam.jpeg)
+
+We are very glad to award all membeers of this winning team an internship opportunity at IBM Research in the coming summer. Go Pilter AI!
+
+
 ## TechTogether 2020 Project
 
 [IBM Research](https://research.ibm.com/) in collaboration with [Cures Within Reach for Cancer](https://www.cwr4c.org/) is on an ambitious initiative to automatically analyze and mine the plethora of scientific publications and real-world data on non-cancer generic drugs to identify the most promising therapies to repurpose for cancer treatment.
